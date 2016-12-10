@@ -1,5 +1,5 @@
 @import 'bower_components/bourbon/app/assets/stylesheets/_bourbon.scss';
-@import url('https://fonts.googleapis.com/css?family=Roboto|Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Inder|Roboto|Racing+Sans+One');
 
 $sizeXS: 480px;
 $sizeSM: 768px;
@@ -16,7 +16,8 @@ $colorDarkGray: rgba(140, 140, 140, 1);
 $colorWhite: rgba(252, 252, 252, 1);
 
 $fontDefault: 'Roboto', sans-serif;
-$fontLogo: 'Fugaz One', sans-serif;
+$fontLogo: 'Racing Sans One', cursive;
+$fontTitle: 'Inder', sans-serif;
 
 $headerHeight: 50px;
 $headerTopPadding: 15px;

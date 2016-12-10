@@ -30,8 +30,45 @@
 		&.side-menu-visible {
 			opacity: 0.2;
 		}
+
+		.movie-item{
+			a{
+				font-family: $fontTitle;
+				color: $colorMain;
+				font-size: 1.1em;
+				@include transition(color 0.3s $ease-in-out-quad);
+				&:hover {
+					color:$colorMainDark;
+				}
+			}		
+		}
 	}
 }
+
+.movie-info{
+	p {
+		text-transform: uppercase;
+		font-family: $fontTitle;
+		color: $colorMain;
+		font-size: 1.1em;
+		text-align: center;
+		@include transition(color 0.3s $ease-in-out-quad);
+		&:hover {
+			color:$colorMainDark;
+		}
+	}
+
+	a {
+		font-family: $fontTitle;
+		color: $colorMain;
+		font-size: 1.1em;
+		@include transition(color 0.3s $ease-in-out-quad);
+		&:hover {
+			color:$colorMainDark;
+		}
+	}
+}
+	
 
 
 

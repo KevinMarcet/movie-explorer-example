@@ -51,6 +51,7 @@
             .menu{
                 padding: 0px;
                 margin: 0px;
+                border-radius: 2px;
             
                 .menu_item{
                     @include padding(20px 10px 30px 10px);

@@ -9,17 +9,18 @@
 		@include padding($headerTopPadding 15px $headerBottomPadding 15px);
 		@include box-sizing(border-box);
         @include box-shadow(0px 2px 2px -2px $colorDarkGray);
+		z-index: 3;
 
 		.navbar {
 			width: 100%;
-			height: 50px;
+			height: 40px;
 
 			div{
 				display: inline-block;
 			}
 
 			.navbar_brand {
-				max-width: 100px;
+				max-width: 200px;
 				float: left;
 				font-family: $fontLogo;
 				height: 100%;
@@ -30,7 +31,7 @@
 					color: $colorMain;
 					font-size: 1.2em;
 					position: relative;
-					top: -7px;
+					top: 5px;
 					@include transition(color 0.3s $ease-in-out-quad);
 					&:hover {
 						color:$colorMainDark;
@@ -41,7 +42,7 @@
 			.navbar_menu {
 				float: right;
 				position: relative;
-				top: 9px;
+				top: 7px;
 				margin-left: 40px;
 
 				.menu {
@@ -79,6 +80,7 @@
 				color: $colorMain;
 				font-size: 1.5em;
 				text-align: right;
+				top: 5px;
 				&:hover{
 					cursor:pointer;
 				}
@@ -94,7 +96,7 @@
 				float: right;
 				margin-left: 15px;
 				position: relative;
-				top: 9px;
+				top: 5px;
 				.fa::before{
 					color: $colorDarkGray;
 				}
